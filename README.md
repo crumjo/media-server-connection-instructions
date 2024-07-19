@@ -23,7 +23,8 @@
 
 ## Important Notes
 
-* **Please do not share logins, I will know if you do!**
+* **Jellyfin and Tailscale are two completely separate accounts. Tailscale is a VPN that allows you to reach the server and Jellyfin is the actual login that gets you into the server**
+* **Please do not share logins, I can only have so many people on the tailscale free tier**
 * **Enjoy my media server to the fullest extent but be mindful that streaming uses my hardware and internet bandwidth, I would appreciate not letting it run when you aren't using it**
 
 
