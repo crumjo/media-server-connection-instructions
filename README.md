@@ -21,7 +21,14 @@
     3. Browser: jellyfin.tailxxxxxx.ts.net --> Enter username & password
 
 
+## Important Notes
+
+* **Please do not share logins, I will know if you do!**
+* **Enjoy my media server to the fullest extent but be mindful that streaming uses my hardware and internet bandwidth, I would appreciate not letting it run when you aren't using it**
+
+
 ## Wrapping Up
+
 Unfortunately you need to be connected to the VPN when streaming content. Removing the need for a VPN would open up my home server to the world and I do not want to manage the security needed to allow that.
 
 This should work with any device that allows the use of a VPN, I usually watch on my phone or PC. I am going to keep looking into ways to get it working on an Apple TV, but this is how it is going to be for a while.
