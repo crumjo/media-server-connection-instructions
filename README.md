@@ -18,6 +18,7 @@
 5. Sign in to the media server **on the same device connected to Tailscale VPN**
     1. Infuse: Files --> Add Files --> Saved Shares Add... --> Other Jellyfin --> Enter server address (jellyfin.tailxxxxxx.ts.net), username, & password
     2. Swiftfin: Connect -->  Server URL (jellyfin.tailxxxxxx.ts.net) --> Enter username & password
+        **NOTE:** If you have buffering issues with Swiftfin, go to settings and try switching the video player to "Native" under "Video Player Type".
     3. Browser: jellyfin.tailxxxxxx.ts.net --> Enter username & password
 
 
