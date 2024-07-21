@@ -1,25 +1,24 @@
 # Media Server Connection Instructions
 
 ## Prerequisites
-- Install Tailscale on the device you will be watching on: https://tailscale.com/download
-- Jellyfin account (I will set this up for you and share the username and password)
+- Install Tailscale on the device that you will be watching on: https://tailscale.com/download
+- Jellyfin account - I will set this up for you and share the username and password
 - _(Optional)_ Install a media client for playback:
     - [Infuse](https://firecore.com/infuse) **(My favorite - Apple only)**
     - [Swiftfin iOS / Mac](https://apps.apple.com/us/app/swiftfin/id1604098728)
-    - [Swiftfin Windows](https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.11.1/JellyfinMediaPlayer-1.11.1-windows-x64.exe) (My choice when watching on my PC)
-    - You can also watch in your browser using the server URL
+    - [Swiftfin Windows](https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.11.1/JellyfinMediaPlayer-1.11.1-windows-x64.exe) (My choice when watching on PC)
+    - You can also watch in your browser with the Jellyfin server URL
 
 
 ## Setup Instructions
-1. Text me your email and I will send you an invite to join my VPN network
-2. After receiving the invite, set up a Tailscale account
-3. Sign in to the Tailscale app on **whichever device you installed the app on**.
-4. Connect to the Tailscale VPN
-5. Sign in to the media server **on the same device connected to Tailscale VPN**
-    1. Infuse: Files --> Add Files --> Saved Shares Add... --> Other Jellyfin --> Enter server address (jellyfin.tailxxxxxx.ts.net), username, & password
-    2. Swiftfin: Connect -->  Server URL (jellyfin.tailxxxxxx.ts.net) --> Enter username & password
-        **NOTE:** If you have buffering issues with Swiftfin, go to settings and try switching the video player to "Native" under "Video Player Type".
-    3. Browser: jellyfin.tailxxxxxx.ts.net --> Enter username & password
+1. Text me the email address that you would like to use for Tailscale and I will send you an invite to join the VPN.
+2. After receiving the invite, set up a Tailscale account.
+3. Sign in to the Tailscale app that you downloaded earlier.
+4. Connect to the Tailscale VPN. There will be a popup asking if you want to allow Tailscale to add VPN configurations. Click allow.
+5. Sign in to the media server **on the same device connected to Tailscale VPN**_
+    1. Infuse: _Files_ --> _Add Files_ --> Saved Shares _Add..._ --> _Other Jellyfin_ --> _Enter server address (jellyfin.tailxxxxxx.ts.net), username, & password_
+    2. Swiftfin: _Connect_ -->  _Server URL (jellyfin.tailxxxxxx.ts.net)_ --> _Enter username & password_
+    3. Browser: _jellyfin.tailxxxxxx.ts.net_ --> _Enter username & password_
 
 
 ## Important Notes
@@ -27,6 +26,18 @@
 * **Jellyfin and Tailscale are two completely separate accounts. Tailscale is a VPN that allows you to reach the server and Jellyfin is the actual login that gets you into the server**
 * **Please do not share logins, I can only have so many people on the tailscale free tier**
 * **Enjoy my media server to the fullest extent but be mindful that streaming uses my hardware and internet bandwidth, I would appreciate not letting it run when you aren't using it**
+
+
+## FAQ
+
+**Q:** How to reduce Swiftfin buffering?  
+**A:** Try switching the video player to "Native" under "Video Player Type".
+
+**Q:** Can I install this on multiple devices?  
+**A:** Yes, simply install and log in to Tailscale on your other device. There is a two login limit on all Jellyfin accounts by default, let me know if you need more and I can change it.
+
+**Q.** Can you download _<insert show / movie here>_ for me?  
+**A.** Probably, but I am running low on space so there isn't room for everything. I will try my best though.
 
 
 ## Wrapping Up
