@@ -1,7 +1,7 @@
 # Media Server Connection Instructions
 
 ## Prerequisites
-- Install Tailscale on the device that you will be watching on: https://tailscale.com/download
+- Install Tailscale VPN on the device that you will be watching on: https://tailscale.com/download
 - Jellyfin account - I will set this up for you and share the username and password
 - _(Optional)_ Install a media client for playback:
     - [Infuse](https://firecore.com/infuse) **(My favorite - Apple only)**
@@ -11,11 +11,11 @@
 
 
 ## Setup Instructions
-1. Text me the email address that you would like to use for Tailscale and I will send you an invite to join the VPN.
+1. Text me the email address that you would like to use for Tailscale and I will send you an invite to join.
 2. After receiving the invite, set up a Tailscale account.
 3. Sign in to the Tailscale app that you downloaded earlier.
 4. Connect to the Tailscale VPN. There will be a popup asking if you want to allow Tailscale to add VPN configurations. Click allow.
-5. Sign in to the media server **on the same device connected to Tailscale VPN**_
+5. Sign in to the media server **on the same device connected to Tailscale VPN:**
     1. Infuse: _Files_ --> _Add Files_ --> Saved Shares _Add..._ --> _Other Jellyfin_ --> _Enter server address (jellyfin.tailxxxxxx.ts.net), username, & password_
     2. Swiftfin: _Connect_ -->  _Server URL (jellyfin.tailxxxxxx.ts.net)_ --> _Enter username & password_
     3. Browser: _jellyfin.tailxxxxxx.ts.net_ --> _Enter username & password_
