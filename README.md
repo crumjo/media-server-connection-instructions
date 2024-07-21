@@ -23,15 +23,19 @@
 
 ## Important Notes
 
-* **Jellyfin and Tailscale are two completely separate accounts. Tailscale is a VPN that allows you to reach the server and Jellyfin is the actual login that gets you into the server**
-* **Please do not share logins, I can only have so many people on the tailscale free tier**
-* **Enjoy my media server to the fullest extent but be mindful that streaming uses my hardware and internet bandwidth, I would appreciate not letting it run when you aren't using it**
+* **The server checks for updates every morning from 5:00-5:30. If Jellyfin has an update, there could be a temporary maintenance outage.**
+* **Jellyfin and Tailscale are two completely separate accounts. Tailscale is a VPN that allows you to reach the server and Jellyfin is the actual login that gets you into the server.**
+* **Please do not share logins, I can only have so many people on the Tailscale free tier.**
+* **Enjoy my media server to the fullest extent but be mindful that streaming uses my hardware and internet bandwidth, I would appreciate not letting it run when you aren't using it.**
 
 
 ## FAQ
 
 **Q:** How to reduce Swiftfin buffering?  
 **A:** Try switching the video player to "Native" under "Video Player Type".
+
+**Q:** How to reduce Infuse buffreing?  
+**A.** Try setting the cache to "Memory Only" under _Settings_ --> _Playback_ --> _Streaming Cache_
 
 **Q:** Can I install this on multiple devices?  
 **A:** Yes, simply install and log in to Tailscale on your other device. There is a two login limit on all Jellyfin accounts by default, let me know if you need more and I can change it.
